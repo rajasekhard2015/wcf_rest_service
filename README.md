@@ -1,13 +1,8 @@
 # Convert WCF Service to RESTFUL Service
 
 
-To convert WCF to RESTFUL service, an operation contract needs to be decorated with “WebInvoke (or) WebGet” to define the Request and Response format as mentioned below.
+To convert WCF to RESTFUL service, an operation contract needs to be decorated with “WebInvoke (or) WebGet” to define the Request and Response format.
 
- 
-
-# [WebInvoke(Method = "GET", UriTemplate = "GetUserList/{genCount}", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
-
- 
 
 This WebInvoke attribute resides inside the “System.ServiceModel.Web” namespace is used to define the below parameters at the end point to convert it to RESTFUL Service.
 
