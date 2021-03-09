@@ -5,7 +5,7 @@ To convert WCF to RESTFUL service, an operation contract needs to be decorated w
 
  
 
-[WebInvoke(Method = "GET", UriTemplate = "GetUserList/{genCount}", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+# [WebInvoke(Method = "GET", UriTemplate = "GetUserList/{genCount}", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
 
  
 
